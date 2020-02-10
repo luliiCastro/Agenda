@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo3">
+
+
+    <ImageButton
+        android:layout_width="218dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/LUNES"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/MARTES"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageButton
+        android:layout_width="349dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/MIERCOLES"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <ImageButton
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/JUEVES"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <ImageButton
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/VIERNES"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageButton
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/SABADO"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <ImageButton
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/DOMINGO"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/fondo"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
